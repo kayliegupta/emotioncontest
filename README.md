@@ -1,31 +1,31 @@
-## Devvit React Starter
+# EmotiContest
 
-A starter to build web applications on Reddit's developer platform
+🎉 **EmotiContest** — A daily emoji puzzle game!
 
-- [Devvit](https://developers.reddit.com/): A way to build and deploy immersive games on Reddit
-- [Vite](https://vite.dev/): For compiling the webView
-- [React](https://react.dev/): For UI
-- [Express](https://expressjs.com/): For backend logic
-- [Tailwind](https://tailwindcss.com/): For styles
-- [Typescript](https://www.typescriptlang.org/): For type safety
+EmotiContest is a fun, interactive game where players try to guess a phrase, movie, or concept using only a set of five emojis. Inspired by Pictionary and emoji challenges, the game tests your creativity and decoding skills every day!
 
-## Getting Started
+---
 
-> Make sure you have Node 22 downloaded on your machine before running!
+## Features
 
-1. Run `npm create devvit@latest --template=react`
-2. Go through the installation wizard. You will need to create a Reddit account and connect it to Reddit developers
-3. Copy the command on the success page into your terminal
+- **Daily emoji puzzles**: Solve a new challenge each day.
+- **Playtest mode**: Built with Devvit for testing in a local community.
+- **Live updates**: Frontend and backend auto-refresh for seamless development.
+- **Simple, intuitive UI**: Designed with React and Vite for smooth gameplay.
 
-## Commands
+---
 
-- `npm run dev`: Starts a development server where you can develop your application live on Reddit.
-- `npm run build`: Builds your client and server projects
-- `npm run deploy`: Uploads a new version of your app
-- `npm run launch`: Publishes your app for review
-- `npm run login`: Logs your CLI into Reddit
-- `npm run check`: Type checks, lints, and prettifies your app
+## Project Structure
 
-## Cursor Integration
+emoticontest/
+├─ assets/ # Images, icons, and static files
+├─ src/
+│ ├─ client/ # Frontend React components
+│ └─ server/ # Backend logic for the game
+├─ dist/ # Production builds
+├─ tools/ # Optional scripts and utilities
+├─ devvit.json # Devvit project configuration
+├─ package.json # npm scripts & dependencies
+└─ tsconfig.json # TypeScript configuration
 
-This template comes with a pre-configured cursor environment. To get started, [download cursor](https://www.cursor.com/downloads) and enable the `devvit-mcp` when prompted.
+---
