@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&display=swap');
+
+/* Title styles */
+.title-fun {
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 0.05em; /* slightly wider letters */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* subtle shadow */
+  background: linear-gradient(90deg, #f97316, #facc15, #3b82f6); /* gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  background: linear-gradient(135deg, #fef3c7, #dbeafe);
+}
+
